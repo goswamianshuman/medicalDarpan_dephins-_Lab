@@ -1,0 +1,84 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background: rgb(118, 10, 15);
+  width: 100%;
+}
+
+.navContainer {
+  display: flex;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+}
+
+.logo_container {
+  height: 40px;
+  width: 40px;
+  background: rgb(186, 186, 186);
+  border-radius: 10px;
+}
+
+.logo p {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.menu {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  padding-left: 50px;
+  /* gap: 30px; */
+  list-style-type: none;
+}
+
+.menu ul li {
+  padding: 0px 10px;
+}
+
+.menu ul li a {
+  opacity: 90%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu ul li a:hover {
+  opacity: 100%;
+}
+
+.accounts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  gap: 50px;
+}
+
+.svg {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
